@@ -3,6 +3,7 @@
 
 '''
     本文件用来检测融数科技生产线上快贷的配置文件
+    version 1.1
 '''
 
 config_path='/opt/service/tansun/tomcat/webapps/quickloan/WEB-INF/classes/config.properties'

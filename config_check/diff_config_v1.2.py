@@ -1,9 +1,19 @@
 #!/usr/bin/env python
 #-*- coding:utf-8 -*-
 
+'''
+    本文件用来检测融数科技生产线上快贷的配置文件
+    version 1.2
+'''
+
+
+#生产环境
 dfile='/opt/service/tansun/tomcat/webapps/WEB-INF/classes/config.properties'
-testdfile='/home/able/Test/config_check/con.p'
-testsfile='/home/able/Test/config_check/con.p1'
+sfile='/opt/script/config.properties'
+
+#测试地址
+testdfile='con.p'
+testsfile='con.p1'
 
 ddic={}
 sdic={}

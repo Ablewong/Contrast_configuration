@@ -1,6 +1,14 @@
 #!/usr/bin/env python
 #-*- coding:utf-8 -*-
 
+'''
+    本文件用来检测融数科技生产线上快贷的配置文件
+    version 1.3
+    经过三次改动，已经可以核对很多不同环境的配置文件
+    在核对前，请确认标准配置文件和生产线上配置文件的路径
+    也就是stand_conf 和pro_conf参数的指的路径
+'''
+
 #生产路径
 stand_conf='/opt/scrpit/config.properties'
 pro_conf='/opt/service/tansun/tomcat/webapps/quickloan/WEB-INF/classes/config.properties'
